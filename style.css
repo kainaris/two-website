@@ -1,3 +1,39 @@
 body {
-    background-color: gainsboro;
+    background-color: #ececec;
+    font-size: 24px;
+}
+
+.grid-2-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    gap: 4em;
+}
+
+.grid-2-3 * {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    gap: 10em;
+}
+
+.grid-1-2 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-top: 1em;
+    padding-left: 12em;
+    padding-right: 10em;
+    gap: 1em;
+}
+
+.invisible_text {
+    color: #ececec;
+}
+
+.contestant-props * {
+    line-height: 3em;
 }
